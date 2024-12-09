@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+	<hr>
+	<header>
+		<nav>
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "booksAnalysis.html">Books Analysis</a></li>
+				<li ><a href = "form.html">Submit your own Book</a></li>
+			</ul>
+		</nav>
+	</header>
+	<hr>
+
+	<section>
+		<h1>Details Submission Form</h1>
+		<p>
+			<strong>
+				You may provide us your information, the book's title, 
+				and a synopsis of its contents so we can send it to every publishing business.
+			</strong>
+		</p>
+
+		<form>
+			<table>
+				<caption><strong>Fill up the required details</strong></caption>
+				<tr>
+					<th>
+						<label for = "fname">First Name:</label>
+					</th>
+					<td>
+						<input type = "text" id = "fname" name = "fname" placeholder="First Name" required>
+					</td>
+					<td rowspan="11"><img src = "Images/images.png" alt = "Welcome"></td>
+					
+				</tr>
+				<tr>
+					<th>
+						<label for = "lname">Last Name:</label>
+					</th>
+					<td>
+						<input type = "text" id = "lname" name = "lname" placeholder="Last Name" required>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for = "email">E-Mail:</label>
+					</th>
+					<td>
+						<input type = "email" id = "email" name = "email" placeholder="E-Mail Address" required>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for = "phone">Phone number:</label>
+					</th>
+					<td>
+						<input type = "number" id = "phone" name = "phone" placeholder="(+977)**********">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for = "address">Address:</label>
+					</th>
+					<td>
+						<input type = "text" id = "address" name = "address" placeholder="Address" required>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for = "city">City:</label>
+					</th>
+					<td>
+						<input type = "text" id = "city" name = "city" placeholder="City" required>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for = "state">State:</label>
+					</th>
+					<td>
+						<select id = "state" >
+							<option value="" disabled selected>Please Select your State</option>
+							<option>Province 1</option>
+							<option>Province 2</option>
+							<option>Province 3</option>
+							<option>Province 4</option>
+							<option>Province 5</option>
+							<option>Province 6</option>
+							<option>Province 7</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label for = "title">Book Title:</label>
+					</th>
+					<td>
+						<input type = "text" id = "title" name = "title" placeholder="Book Title" required>
+					</td>
+					
+				</tr>
+
+				<tr>
+					<th>
+						<label for = "Description">Brief Description of Book:</label>
+					</th>
+					<td>
+						<textarea id = "Description" rows = "5" cols = "50"> </textarea><br>
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label>Do you really want to make this information public?</label>
+					</th>
+					<td>
+						<input type = "radio" id = "hosting1" name = "hosting1" required>
+						<label for = "hosting1">Yes</label>
+						<input type = "radio" id = "hosting2" name = "hosting2" required>
+						<label for = "hosting2">No</label><br>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<button>Submit all</button>
+					</th>
+					<td></td>
+				</tr>
+			</table>
+		</form>
+
+		<p>
+			<strong>
+				We will forward your information to publishing houses, and you may receive emails from them regarding future
+				opportunities and collaboration.
+			</strong>
+		</p>
+	</section>
+	<hr>
+
+	<footer>
+		<table>
+			<tr>
+				<th>
+					<strong>Quick Links</strong><br>
+					<a href = "contact.html">Contact Us</a><br>
+					<a href = "about.html">About us </a>
+				</th>
+				<th><img src = "Images/Book_logo.jpg" alt = "Book Logo" width = "500" height = "150"></th>
+				<th>
+					<strong><u>Get In Touch</u></strong><br>
+					Address: Ratnanagar-10, Chitwan, Nepal<br>
+					Landline : +977-01-4700975<br>
+					Cell: +977 9846525426<br>
+					Email: booksanalyze@gmail.com
+				</th>
+				<th><img src = "Images/Book_picture.png" alt = "Book Logo" width = "500" height = "150"></th>
+			</tr>
+		</table>
+	</footer>
+	<hr>
+</body>
+
+</html>
